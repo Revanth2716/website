@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GADGETS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .person {
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin: 10px;
+        width: 45%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        margin-top: 0;
+    }</style>
+</head>
+<body>
+    <header>
+        <h1>Gadgets Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#gadget">Gadgets</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>A gadget is an electronic device that carries out a specific function. The function that it performs is impressive enough to be useful for our daily living and also it lessens the burden of accomplishing tasks. So no wonder why gadgets became a part of our lives. Letting it become a part of our life means that its improvement and development is seen as time goes by. So it gives us the fact that throughout the years, there is a great difference from where it started and to where it is right now. As someone who is born the year 2000, I am aware that I grew up exposed to gadgets together with its development. </p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="./download (1).jpeg" alt="Image 1">
+        <img src="./download.jpeg" alt="Image 2">
+        <img src="./images (1).jpeg" alt="Image 3">
+        <img src="./images.jpeg" alt="Image 4">
+    </section>
+    <h1>Information About Peoples</h1>
+    <div class="container">
+        <div class="person">
+            <h2>John Doe</h2>
+            <section id="gallery">
+                <img src="./images (2).jpeg" alt="image">
+            </section>
+            <p><strong>Age:</strong> 30</p>
+            <p><strong>Occupation:</strong> Software Engineer</p>
+            <p><strong>Hobbies:</strong> Hiking, Reading, Traveling</p>
+            <p><strong>Biography:</strong> John is a passionate software engineer with over 10 years of experience in web development. He enjoys working on open-source projects and contributing to the tech community.</p>
+        </div>
+
+        <div class="person">
+            <h2>Jane Smith</h2>
+            <section id="gallery">
+                <img src="./images (3).jpeg" alt="image">
+            </section>
+            <p><strong>Age:</strong> 28</p>
+            <p><strong>Occupation:</strong> Graphic Designer</p>
+            <p><strong>Hobbies:</strong> Painting, Photography, Yoga</p>
+            <p><strong>Biography:</strong> Jane is a creative graphic designer with a knack for visual storytelling. She loves exploring new design trends and incorporating them into her work. In her free time, she enjoys painting and capturing moments through photography.</p>
+        </div>
+    </div>
+
+    <section id="video">
+        <h2>Our Video</h2>
+        <video controls>
+            <source src="./Untitled video - Made with Clipchamp.mp4" type="video/mp4" height="200" width="300">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <section class="gadget-grid" id="gadget">
+        <div class="gadget">
+            <img src="./smartphone.jpeg" alt="Smartphone">
+            <h2>Smartphone</h2>
+            <p>The latest smartphone with cutting-edge technology, an amazing camera, and a sleek design.</p>
+        </div>
+        <div class="gadget">
+            <img src="./smartwatch.jpeg" alt="Smartwatch">
+            <h2>Smartwatch</h2>
+            <p>Stay connected on the go with this stylish smartwatch that tracks your fitness and health.</p>
+        </div>
+        <div class="gadget">
+            <img src="./wireless earbuds.jpeg" alt="Wireless Earbuds">
+            <h2>Wireless Earbuds</h2>
+            <p>Experience high-quality sound without the hassle of wires. Perfect for music lovers!</p>
+        </div>
+        <div class="gadget">
+            <img src="./tablet.jpeg" alt="Tablet">
+            <h2>Tablet</h2>
+            <p>A versatile tablet that combines the power of a laptop with the convenience of a mobile device.</p>
+        </div>
+        <div class="gadget">
+            <img src="./smart home devices.jpeg" alt="Smart Home Device">
+            <h2>Smart Home Device</h2>
+            <p>Control your home from anywhere with this intelligent smart home device that makes life easier.</p>
+        </div>
+        <div class="gadget">
+            <img src="./vr headset.jpeg" alt="VR Headset">
+            <h2>VR Headset</h2>
+            <p>Immerse yourself in a virtual world with this state-of-the-art VR headset for gaming and experiences.</p>
+        </div>
+    </section>
+
+
+    <section id="login">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="signup">
+        <h2>Sign Up</h2>
+        <form>
+            <label for="new-username">Username:</label>
+            <input type="text" id="new-username" name="new-username" required>
+            <label for="new-password">Password:</label>
+            <input type="password" id="new-password" name="new-password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+    <h1>Contact Us</h1>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form><br><br>
+
+    <footer>
+        <p>&copy; 2024 GADGETS</p>
+    </footer>
+</body>
+</html>
